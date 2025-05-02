@@ -7,6 +7,37 @@ The model is wrapped in a user-friendly Streamlit web app that allows anyone to 
 We used the [Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset).  
 Please download it manually and place it in the `dataset/` folder.
 
+## Project Structure
+.
+
+├── app.py                  # Streamlit web app
+
+├── fake_news_model.pkl     # (Generated) Saved ML model
+
+├── tfidf_vectorizer.pkl    # (Generated) Saved TF-IDF vectorizer
+
+├── requirements.txt        # Python dependencies
+
+├── README.md               # Project documentation
+
+└── notebook.ipynb          # Jupyter Notebook with model training
+
+
+### 🔄 Note:
+Due to file size restrictions on GitHub, the dataset and .pkl files are not included in this repository.
+
+### 📥 Dataset:
+Download the dataset manually from Fake and Real News Dataset and place it in the correct path as specified in the notebook.
+
+### 🛠️ Model files:
+After running the notebook (notebook.ipynb), the following files will be automatically generated:
+
+fake_news_model.pkl (the trained machine learning model)
+
+tfidf_vectorizer.pkl (the saved TF-IDF vectorizer)
+
+You need these files to run the Streamlit app (app.py). 
+
 ## 🚀 Features
 ✅ Binary text classification (Fake vs. Real news)
 
