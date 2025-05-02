@@ -8,23 +8,16 @@ We used the [Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentb
 Please download it manually and place it in the `dataset/` folder.
 
 ## Project Structure
-.
-
-├── app.py                  # Streamlit web app
-
-├── fake_news_model.pkl     # (Generated) Saved ML model
-
-├── tfidf_vectorizer.pkl    # (Generated) Saved TF-IDF vectorizer
-
-├── requirements.txt        # Python dependencies
-
-├── README.md               # Project documentation
-
-└── notebook.ipynb          # Jupyter Notebook with model training
+. <br />
+├── app.py                  # Streamlit web app <br />
+├── fake_news_model.pkl     # (Generated) Saved ML model <br />
+├── tfidf_vectorizer.pkl    # (Generated) Saved TF-IDF vectorizer<br />
+├── requirements.txt        # Python dependencies<br />
+├── README.md               # Project documentation<br />
+└── notebook.ipynb          # Jupyter Notebook with model training<br />
 
 
-### 🔄 Note:
-Due to file size restrictions on GitHub, the dataset and .pkl files are not included in this repository.
+
 
 ### 📥 Dataset:
 Download the dataset manually from Fake and Real News Dataset and place it in the correct path as specified in the notebook.
